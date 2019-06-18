@@ -1,0 +1,2508 @@
+/* Respite Cascading Style Sheet */
+
+
+
+/* ********************************************************************************************* */
+/* Reset Styles */
+/* ********************************************************************************************* */
+body
+	{
+   margin: 0;
+   font-family: verdana, arial, sans-serif;
+   background-color: #ffffff;
+	}
+
+p, a, h1, h2, h3, h4, h5, table, th, tr, fieldset, label, legend, hr, figure, img, figcaption
+	{
+   padding: 0;
+   margin: 0;
+   font-size: .9em;
+   font-weight: normal;
+	}
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Base styles - unfiltered by media queries*/
+/* ********************************************************************************************* */
+body
+	{
+	background-color: #444444;
+	}
+
+
+
+/* ********************************************************************************************* */
+/* Individual Elements */
+/* ********************************************************************************************* */
+#homePageImage
+	{
+	width: 100%;
+	}
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Dividers */
+/* ********************************************************************************************* */
+
+.divider
+	{
+	height: 2.5em;
+	color: #cccccc;
+	font-weight: bold;
+
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	font-weight: bold;
+	background-color: #252525;
+	background: -moz-linear-gradient(#7777cc, #000022); /* FF 3.6+ */  
+	background: -ms-linear-gradient(#7777cc, #000022); /* IE10 */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7777cc), color-stop(100%, #000022)); /* Safari 4+, Chrome 2+ */  
+	background: -webkit-linear-gradient(#7777cc, #000022); /* Safari 5.1+, Chrome 10+ */  
+	background: -o-linear-gradient(#7777cc, #000022); /* Opera 11.10 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7777cc', endColorstr='#000022'); /* IE6 & IE7 */  
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7777cc', endColorstr='#000022')"; /* IE8+ */  
+	background: linear-gradient(#7777cc, #000022); /* the standard */ 
+	}
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Title Bar */
+/* ********************************************************************************************* */
+
+#titleBar
+	{
+	opacity: 1.0;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 2.5em;
+	text-align: center;
+	font-weight: bold;
+	background-color: #252525;	
+	background: -moz-linear-gradient(#777777, #111111); /* FF 3.6+ */  
+	background: -ms-linear-gradient(#777777, #111111); /* IE10 */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #777777), color-stop(100%, #111111)); /* Safari 4+, Chrome 2+ */  
+	background: -webkit-linear-gradient(#777777, #111111); /* Safari 5.1+, Chrome 10+ */  
+	background: -o-linear-gradient(#777777, #111111); /* Opera 11.10 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#111111'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#111111')"; /* IE8+ */
+	background: linear-gradient(#777777, #111111); /* the standard */
+	}
+
+#titleBar p,
+#titleBar h1,
+#titleBar h2,
+#titleBar h3,
+#titleBar h4,
+#titleBar h5
+	{
+	color: #FFC266;
+	float: left;
+	margin-top: .2em;
+	}
+
+#icon_tools
+	{
+	float: right;
+	margin-right: 0;
+	margin-left: .5em;
+	border: none;
+	}
+
+#icon_home
+	{
+	float: right;
+	margin-right: 0;
+	margin-left: .5em;
+	border: none;
+	}
+
+#icon_menu
+	{
+	float: left;
+	margin-right: .5em;
+	border: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Menu Bar */
+/* ********************************************************************************************* */
+
+#menuBar
+	{
+   float: left;
+   width: 25%;
+   background: #333333;
+	}
+
+#menuBar hr
+	{
+   color: #171717;
+   background-color: #171717;
+   border-color: #171717;
+   background-color: #171717;
+   height: 2px;
+   border: none;
+   margin-left: -.5em;
+   margin-right: -.5em;	
+	}
+
+
+
+
+/* Menu Bar Header*/
+/* ******************************************************************** */
+
+#menuBarHeader
+	{
+   padding: .5em;
+	}
+
+#menuBarHeader p
+	{
+   color: #ccc;
+	}
+
+#menuBarHeader h1
+	{
+   font-size: 2em;
+   text-indent: 0em;
+   color: #ccc;
+   }
+
+#menuBarHeader h2
+	{
+   font-size: 1.8em;
+   text-indent: 0em;
+   color: #ccc;
+	}
+	
+#menuBarHeader h3
+	{
+   font-size: 1.6em;
+   text-indent: 0em;
+   color: #ccc;
+	}
+	
+#menuBarHeader h4
+	{
+   font-size: 1.4em;
+   text-indent: 0em;
+   color: #ccc;
+	}
+	
+#menuBarHeader h5
+	{
+   font-size: 1.2em;
+   text-indent: 0em;
+   color: #ccc;
+	}
+
+
+
+/* Menu Bar Alert Widget */
+/* ******************************************************************** */
+
+#menuBar .alert
+	{
+   background: #570101;
+   color: #ffff00;
+   padding: .5em;
+   margin-top: .5em;
+   margin-bottom: .5em;
+   margin-left: .5em;
+   margin-right: .5em;
+   border: 3px double #3A3A52;
+   border-radius: 1em;
+	}
+
+#menuBar .alert p,
+#menuBar .alert h1,
+#menuBar .alert h2,
+#menuBar .alert h3,
+#menuBar .alert h4,
+#menuBar .alert h5
+	{
+   color: #ffff00;
+	}
+
+#menuBar .alert h1
+	{
+   font-size: 2em;
+   text-indent: 0em;
+	}
+
+#menuBar .alert h2
+	{
+   font-size: 1.8em;
+   text-indent: 0em;
+	}
+	
+#menuBar .alert h3
+	{
+   font-size: 1.6em;
+   text-indent: 0em;
+	}
+	
+#menuBar .alert h4
+	{
+   font-size: 1.4em;
+   text-indent: 0em;
+	}
+	
+#menuBar .alert h5
+	{
+   font-size: 1.2em;
+   text-indent: 0em;
+	}
+
+#menuBar .alert a
+	{
+   color: #ffffff;
+	}
+
+#menuBar .alert a:hover
+	{
+   text-decoration: underline;
+	}
+
+
+/* Menu */
+/* ******************************************************************** */
+
+#menu
+	{
+   padding-right: .25em;
+	}
+	
+#menu ul
+	{
+   margin: 0;
+   padding-left: 0;
+   list-style-type: none;
+	}
+
+#menu li
+	{
+	margin: 0;
+	}
+
+#menu a
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	}
+
+#menu a:hover
+	{
+	background-color: #444;
+	color: #FFF;
+	}
+ 
+#menu ul ul a
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #333333;
+	padding-left: 1em;
+	font-weight: normal;
+	}
+
+
+.menuDivider
+	{
+	color: #cccccc;
+	font-weight: bold;
+	padding-left: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	font-weight: bold;
+	background-color: #252525;
+	background: -moz-linear-gradient(#777777, #111111); /* FF 3.6+ */  
+	background: -ms-linear-gradient(#777777, #111111); /* IE10 */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #777777), color-stop(100%, #111111)); /* Safari 4+, Chrome 2+ */  
+	background: -webkit-linear-gradient(#777777, #111111); /* Safari 5.1+, Chrome 10+ */  
+	background: -o-linear-gradient(#777777, #111111); /* Opera 11.10 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#111111'); /* IE6 & IE7 */  
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#111111')"; /* IE8+ */  
+	background: linear-gradient(#777777, #111111); /* the standard */ 
+	}
+
+
+/* Menu Bar Footer*/
+/* ******************************************************************** */
+/* The Menu Bar is for navigational menus. */
+/* These should be links only and not perform any business or form actions. */
+
+#menuBarFooter
+	{
+	padding: .5em;
+	}
+
+#menuBarFooter p,
+#menuBarFooter h1,
+#menuBarFooter h2,
+#menuBarFooter h3,
+#menuBarFooter h4,
+#menuBarFooter h5
+	{
+	color: #ccc;
+	}
+
+#menuBarFooter h1
+	{
+	font-size: 2em;
+	text-indent: 0em;
+	color: #ccc;
+	}
+
+#menuBarFooter h2
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	color: #ccc;
+	}
+	
+#menuBarFooter h3
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	color: #ccc;
+	}
+	
+#menuBarFooter h4
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	color: #ccc;
+	}
+	
+#menuBarFooter h5
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	color: #ccc;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* App Panel */
+/* ********************************************************************************************* */
+/* The App Panel is the main screen area for business activity. */
+/* appPanelOuter is the positioning/containing div for the appPanel */
+/* appPanel is the inner div for content */
+
+#appPanelOuter
+	{
+	float: left;
+	width: 50%;
+	background: #cccccc;
+	}
+
+#appPanel
+	{
+	background: #cccccc;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: .5em;
+	margin-bottom: 0em;
+	}
+
+#appPanel p
+	{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #000066;
+	}
+
+#appPanel h1
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	color: #00003d;
+	}
+
+#appPanel h2
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	color: #00003d;
+	}
+	
+#appPanel h3
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	color: #00003d;
+	}
+	
+#appPanel h4
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	color: #00003d;
+	}
+	
+#appPanel h5
+	{
+	font-size: 1em;
+	text-indent: 0em;
+	color: #00003d;
+	}
+
+#appPanel hr
+	{
+	margin-left: -.5em;
+	margin-right: -.5em;
+	}
+	
+#appPanel table
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;	
+	}
+
+#appPanel ol,
+#appPanel ul
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+   color: #000000;
+	}
+
+#appPanel a:link
+	{
+	color: #cc0000;
+	text-decoration: none;
+	font-size: 1em;
+	}
+
+#appPanel a:active
+	{
+	color: #cc0000;
+	text-decoration: underline;
+	background: #99B2FF;
+	}
+
+#appPanel a:visited
+	{
+	color: #cc0000;
+	text-decoration: none;
+	}
+
+#appPanel a:hover
+	{
+	color: #cc0000;
+	text-decoration: underline;
+	}
+
+
+/* App Panel stagecoach_table01 */
+/* ******************************************************************** */
+
+#appPanel table.stagecoach_table01
+	{
+	width: 100%;
+	border: 1px solid #888888;
+	font-size: 1em;
+	}
+
+#appPanel table.stagecoach_table01 th
+	{
+	background: #444444;
+	color: #DDDDDD;
+	font-weight: bold;
+	padding: 3px;
+	}
+
+#appPanel table.stagecoach_table01 tr
+	{
+
+	}
+
+#appPanel table.stagecoach_table01 td
+	{
+	border: 1px solid #888888;
+	padding: 3px;
+	}
+
+#appPanel table.stagecoach_table01 td + td
+	{
+	border: 1px solid #888888;
+	width: 6em;
+	text-align: center;
+	}
+
+#appPanel .stagecoach_table01_Organization
+	{
+	font-weight: bold;
+	}
+
+#appPanel .stagecoach_table01_ProjectName
+	{
+	color: #0000AA;
+	}
+
+/* App Panel stagecoach_table02 */
+/* ******************************************************************** */
+
+#appPanel table.stagecoach_table02
+	{
+	width: 100%;
+	border: 1px solid #888888;
+	font-size: 1em;
+	}
+
+#appPanel table.stagecoach_table02 th
+	{
+	background: #444444;
+	color: #DDDDDD;
+	font-weight: bold;
+	padding: 3px;
+	}
+
+#appPanel table.stagecoach_table02 tr
+	{
+
+	}
+
+#appPanel table.stagecoach_table02 td
+	{
+	border: 1px solid #888888;
+	padding: 3px;
+	width: 40%;
+	}
+
+#appPanel table.stagecoach_table02 td + td
+	{
+	width: 40%;
+	}
+
+#appPanel table.stagecoach_table02 td + td + td
+	{
+	text-align: center;
+	width: 20%;
+	}
+
+#appPanel .stagecoach_table02_projectName
+	{
+	color: #0000AA;
+	}
+
+#appPanel .stagecoach_table02_action
+	{
+	color: #0000AA;
+	font-weight: bold;
+	}
+
+#appPanel .stagecoach_table02_past
+	{
+	font-weight: bold;
+	color: #c00;
+	}
+
+#appPanel .stagecoach_table02_present
+	{
+	font-weight: bold;
+	color: #CF7C00;
+	}
+
+#appPanel .stagecoach_table02_future
+	{
+	font-weight: bold;
+	color: #336600;
+	}
+
+/* App Panel stagecoach_status */
+/* ******************************************************************** */
+
+#appPanel .stagecoach_status_true
+	{
+	color: #AAAAAA;
+	font-weight: bold;
+	}
+
+#appPanel .stagecoach_status_false
+	{
+	color: #DD0000;
+	font-weight: bold;
+	}
+
+/* App Panel Breadcrumb*/
+/* ******************************************************************** */
+
+#appPanel .breadcrumb 
+	{
+	font-style: italic;
+	font-size: .9em;
+	text-decoration: underline;
+	}
+
+#appPanel .breadcrumb a
+	{
+	color: #cc0000;
+	text-decoration: underline;
+	}
+
+
+/* App Panel Button Bar*/
+/* ******************************************************************** */
+
+#appPanel .buttonBar 
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .5em;
+	background: #F0E2B6;
+	}
+
+#appPanel .buttonBar h1,
+#appPanel .buttonBar p
+	{
+	color: #000055;
+	}
+
+#appPanel .buttonBar .linkButton
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:1px 1px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #000000;
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e9c615), to(#de5f16));
+	background: -moz-linear-gradient(top,  #e9c615,  #de5f16);
+	background: -ms-linear-gradient(top, #e9c615,  #de5f16);
+	background: -o-linear-gradient(top, #e9c615,  #de5f16);
+	background: linear-gradient(top, #e9c615,  #de5f16);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16'); /* IE6 & IE7 */  
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16')"; /* IE8+ */  
+	}
+
+#appPanel .buttonBar .linkButton:hover
+	{
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D6AD33), to(#e9c615));
+	background: -moz-linear-gradient(top,  #D6AD33,  #e9c615);
+	background: -ms-linear-gradient(top, #D6AD33,  #e9c615);
+	background: -o-linear-gradient(top, #D6AD33,  #e9c615);
+	background: linear-gradient(top, #D6AD33,  #e9c615);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#D6AD33', endColorstr='#e9c615');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6AD33', endColorstr='#e9c615')"; /* IE8+ */ 	
+	text-decoration: none;
+	color: #000000;
+	}
+
+#appPanel .buttonBar .linkButton:active
+	{
+	color: #000000;
+	position: relative;
+	top: 1px;
+	}
+
+#appPanel .buttonBar input[type="submit"]
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:0px 0px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #ffffff;
+	background: #7a0d2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7a0d2e), to(#de182c));
+	background: -moz-linear-gradient(top,  #7a0d2e,  #de182c);
+	background: -ms-linear-gradient(top, #7a0d2e,  #de182c);
+	background: -o-linear-gradient(top, #7a0d2e,  #de182c);
+	background: linear-gradient(top, #7a0d2e,  #de182c);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#7a0d2e', endColorstr='#de182c');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7a0d2e', endColorstr='#de182c')"; /* IE8+ */ 
+	}
+
+#appPanel .buttonBar button
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:1px 1px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #000000;
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e9c615), to(#de5f16));
+	background: -moz-linear-gradient(top,  #e9c615,  #de5f16);
+	background: -ms-linear-gradient(top, #e9c615,  #de5f16);
+	background: -o-linear-gradient(top, #e9c615,  #de5f16);
+	background: linear-gradient(top, #e9c615,  #de5f16);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16')"; /* IE8+ */ 
+	}
+
+
+/* App Panel Text Widget */
+/* ******************************************************************** */
+
+#appPanel .text
+	{
+	background: #ffffff;
+	padding: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	}
+
+#appPanel .text .figureLeft
+	{
+	float: left;
+	width: 40%;
+	margin-left: 0em;
+	margin-right: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding: 0;
+	}
+
+#appPanel .text .figureRight
+	{
+	float: right;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+	}
+
+#appPanel .text figure img
+	{
+	width: 100%;
+	}
+
+#appPanel .text figure figcaption
+	{
+	text-align: center;
+	background: #8080cc;
+	}
+	
+
+/* App Panel Photo Widget*/
+/* ******************************************************************** */
+
+#appPanel .photo
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .5em;
+	background: #ffffff;
+	}
+
+#appPanel .photo figure
+	{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+#appPanel .photo figure img
+	{
+	width: 100%;
+	margin-top: 1px;
+	}
+
+#appPanel .photo figure figcaption
+	{
+	text-align: center;
+	background: #8080cc;
+	}
+
+
+/* App Panel Canvas Widget*/
+/* ******************************************************************** */
+
+#appPanel .canvas
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .5em;
+	background: #ffffff;
+	}
+
+#appPanel .canvas #logo
+	{
+	border: none;
+	width: 100%;
+	}
+
+/* App Panel Respite Graph Widget*/
+/* ******************************************************************** */
+
+#appPanel .respiteGraph
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .3em;
+	background: #ffffff;
+	}
+
+#appPanel .respiteGraph table
+	{
+   background: #8080cc;
+   table-layout: fixed;
+   width: 100%;
+	}
+
+#appPanel .respiteGraph td
+	{
+	color: #000000;
+	}
+
+#appPanel .respiteGraph th
+	{
+	color: #000000;
+	font-weight: bold;
+	}
+
+#appPanel .respiteGraph .respiteGraphCanvas
+	{
+	width: 100%;
+	}
+
+
+
+/* App Panel Location Widget*/
+/* ******************************************************************** */
+
+#appPanel .location
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .5em;
+	background: #ffffff;
+	}
+
+#appPanel .location #map
+	{
+	width: 100%;
+	}
+
+/* App Panel Video Widget*/
+/* ******************************************************************** */
+
+#appPanel .video
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	padding: .5em;
+	background: #ffffff;
+	}
+
+#appPanel .video video
+	{
+	width: 100%;
+	}
+
+/* App Panel Group Widget*/
+/* ******************************************************************** */
+
+/* Group label preceeds widget - not in div */
+#appPanel .group_label
+	{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1em;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-top: .5em;
+	background: #00246B;
+	border-top: 3px double #3A3A52;
+	border-left: 3px double #3A3A52;
+	border-right: 3px double #3A3A52;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	}
+
+#appPanel .group_label a
+	{
+	color: #FFC266;
+	font-weight: bold;
+	}
+
+#appPanel .group_label_more
+	{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: .8em;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-top: .5em;
+	background: #00246B;
+	border-top: 3px double #3A3A52;
+	border-left: 3px double #3A3A52;
+	border-right: 3px double #3A3A52;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	}
+
+#appPanel .group_label_more a
+	{
+	color: #FFC266;
+	font-weight: bold;
+	font-style: italic;
+	}
+
+/* Creates a grouping of one or more app fields */
+#appPanel .group
+	{
+	border: 3px double #3A3A52;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-right: .5em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	background: #ffffff;
+	}
+	
+#appPanel .group hr
+	{
+	margin-left: -.5em;
+	margin-right: -.5em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	}
+
+
+/* Left box in a group that holds form label and helper text */
+#appPanel .group .group_item .GroupLeft
+	{
+	float: left;
+	background: #ffffff;
+	width: 37%;
+	margin-bottom: 0em;
+	}
+
+#appPanel .helper_text
+	{
+	font-size: .7em;
+	font-weight: normal;
+	font-style: italic;
+	}
+
+#appPanel label
+	{
+	font-weight: bold;
+	}
+
+/* Right box in a group that holds form label and helper text */	
+#appPanel .group .group_item .GroupRight
+	{
+	float: right;
+	background: #ffffff;
+	width: 60%;
+	}
+	
+#appPanel .error
+	{
+	clear: both;
+	text-align: right;
+	color: #ff0000;
+	font-size: .7em;
+	font-weight: bold;
+	font-style: italic;	
+	}
+
+/* Clears floats at the end of a group */
+#appPanel .group_item_close
+	{
+	clear: both;
+	}
+
+#appPanel .printNavControl
+	{
+	text-align: center;
+	font-style: italic;
+	}
+
+#appPanel .reportNavControl
+	{
+	text-align: center;
+	font-style: italic;
+	}
+
+/* App Panel Group Item Styling */
+/* ******************************************************************** */
+
+#appPanel .group_item .note
+	{
+   background: #ffffff;
+   padding: 0;
+	}
+
+#appPanel .group_item .tinyNote
+	{
+   background: #ffffff;
+   font-size: .7em;
+	}
+
+#appPanel .group_item .emptyUL
+	{
+   background: #FFFF99;
+   padding: 0;
+	color: #ff0000;
+	font-style: italic;
+	}
+
+#appPanel .group_item table
+	{
+   background: #8080cc;
+   table-layout: fixed;
+   width: 100%;
+	}
+
+#appPanel .group_item td
+	{
+	color: #000000;
+	}
+
+#appPanel .group_item th
+	{
+	color: #000000;
+	font-weight: bold;
+	}
+
+#appPanel .group_item ul
+	{
+   background: #ffffff;
+	font-size: .9em
+	}
+
+#appPanel .group_item ol
+	{
+   background: #ffffff;
+	font-size: .9em
+	}
+
+#appPanel .group_item input[type="text"]
+	{
+
+   float: right;
+	width: 100%;
+   background: #ffffff;
+	}
+
+#appPanel .group_item input[type="password"]
+	{
+   border: 1px solid black;
+   float: right;
+   width: 100%;
+   background: #ffffff;
+	}
+
+#appPanel .group_item textarea
+	{
+   border: 1px solid black;
+   float: right;
+   width: 100%;
+	height: 5em;
+   background: #ffffff;
+	}
+
+#appPanel .group_item input[type="checkbox"]
+	{
+   background: #ffffff;
+   margin-right: 1em;
+	}
+
+#appPanel .group_item  label.checkboxLabel
+	{
+   display: block;
+   background: #ffffff;
+   border: none;
+   font-weight: normal;
+   text-align: left;
+	}
+
+#appPanel .group_item select
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="radio"]
+	{
+   background: #ffffff;
+   margin-right: 1em;
+	}
+
+#appPanel .group_item  label.radioLabel
+	{
+   display: block;
+   background: #ffffff;
+   border: none;
+   font-weight: normal;
+   text-align: left;
+	}
+
+#appPanel .group_item input[type="file"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="color"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="date"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="datetime"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="datetime-local"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="email"]
+	{
+   float: right;
+   width: 100%;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="month"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="number"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="range"]
+	{
+   float: right;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="search"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="tel"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="time"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="url"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+#appPanel .group_item input[type="week"]
+	{
+   float: right;
+   background: #ffffff;
+   width: 100%;
+	}
+
+/* App Panel Alert Widget */
+/* ******************************************************************** */
+
+#appPanel .alert
+	{
+	background: #570101;
+	color: #ffff00;
+	padding: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	}
+
+#appPanel .alert p,
+#appPanel .alert h1,
+#appPanel .alert h2,
+#appPanel .alert h3,
+#appPanel .alert h4,
+#appPanel .alert h5
+	{
+	color: #ffff00;
+	}
+
+#appPanel .alert h1
+	{
+	font-size: 2em;
+	text-indent: 0em;
+	}
+
+#appPanel .alert h2
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	}
+	
+#appPanel .alert h3
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	}
+	
+#appPanel .alert h4
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	}
+	
+#appPanel .alert h5
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	}
+
+#appPanel .alert a
+	{
+	color: #ffffff;
+	}
+
+#appPanel .alert a:hover
+	{
+	text-decoration: underline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Tool Bar */
+/* ********************************************************************************************* */
+/* The Tool Bar is for helper functions, action buttons, and supporting widgets. */
+/* toolBarOuter is the positioning/containing div for the toolBar */
+/* toolBar is the inner div for content */
+
+#toolBarOuter
+	{
+	float: left;
+	width: 25%;
+	background: #293650;
+	}
+
+#toolBar
+	{
+	background: #293650;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: .5em;
+	margin-bottom: 0em;
+	}
+
+#toolBar p
+	{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #ffffff;
+	}
+
+#toolBar h1
+	{
+	font-size: 2em;
+	text-indent: 0em;
+	color: #ffffff;
+	}
+
+#toolBar h2
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	color: #ffffff;
+	}
+	
+#toolBar h3
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	color: #ffffff;
+	}
+	
+#toolBar h4
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	color: #ffffff;
+	}
+	
+#toolBar h5
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	color: #ffffff;
+	}
+
+#toolBar hr
+	{
+	margin-left: -.5em;
+	margin-right: -.5em;
+	}
+	
+#toolBar table
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;	
+	}
+
+#toolBar ol,
+#toolBar ul
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+   color: #ffffff;
+	}
+
+#toolBar a:link
+	{
+	color: #FAF600;
+	text-decoration: none;
+	}
+
+#toolBar a:active
+	{
+	color: #E6656B;
+	text-decoration: underline;
+	background: #867196;
+	}
+
+#toolBar a:visited
+	{
+	color: #FAF600;
+	text-decoration: none;
+	}
+
+#toolBar a:hover
+	{
+	color: #FAF600;
+	text-decoration: underline;
+	}
+
+
+
+/* Tool Bar Button Bar*/
+/* ******************************************************************** */
+
+#toolBar .buttonBar 
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #000000;
+	border-radius: 1em;
+	padding: .5em;
+	background: #F0E2B6;
+	background: #F0E2D6;
+	color: #000000;
+	}
+
+#toolBar .buttonBar h1,
+#toolBar .buttonBar p
+	{
+	color: #000055;
+	}
+
+#toolBar .buttonBar .linkButton
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:1px 1px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #000000;
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e9c615), to(#de5f16));
+	background: -moz-linear-gradient(top,  #e9c615,  #de5f16);
+	background: -ms-linear-gradient(top, #e9c615,  #de5f16);
+	background: -o-linear-gradient(top, #e9c615,  #de5f16);
+	background: linear-gradient(top, #e9c615,  #de5f16);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16')"; /* IE8+ */ 
+	}
+
+#toolBar .buttonBar .linkButton:hover
+	{
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D6AD33), to(#e9c615));
+	background: -moz-linear-gradient(top,  #D6AD33,  #e9c615);
+	background: -ms-linear-gradient(top, #D6AD33,  #e9c615);
+	background: -o-linear-gradient(top, #D6AD33,  #e9c615);
+	background: linear-gradient(top, #D6AD33,  #e9c615);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#D6AD33', endColorstr='#e9c615');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6AD33', endColorstr='#e9c615')"; /* IE8+ */ 
+	text-decoration: none;
+	color: #000000;
+	}
+
+#toolBar .buttonBar .linkButton:active
+	{
+	color: #000000;
+	position: relative;
+	top: 1px;
+	}
+
+#toolBar .buttonBar input[type="submit"]
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:0px 0px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #ffffff;
+	background: #7a0d2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7a0d2e), to(#de182c));
+	background: -moz-linear-gradient(top,  #7a0d2e,  #de182c);
+	background: -ms-linear-gradient(top, #7a0d2e,  #de182c);
+	background: -o-linear-gradient(top, #7a0d2e,  #de182c);
+	background: linear-gradient(top, #7a0d2e,  #de182c);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#7a0d2e', endColorstr='#de182c');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7a0d2e', endColorstr='#de182c')"; /* IE8+ */ 
+	}
+
+#toolBar .buttonBar button
+	{
+	display: inline-block;
+	border: 1px solid #4b4894;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px Arial;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow:1px 1px 0px #c9a591;
+	-moz-box-shadow: 2px 2px 4px 0px #444444;
+	-webkit-box-shadow: 2px 2px 4px 0px #444444;
+	box-shadow: 2px 2px 4px 0px #444444;
+	color: #000000;
+	background: #e9c615;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e9c615), to(#de5f16));
+	background: -moz-linear-gradient(top,  #e9c615,  #de5f16);
+	background: -ms-linear-gradient(top, #e9c615,  #de5f16);
+	background: -o-linear-gradient(top, #e9c615,  #de5f16);
+	background: linear-gradient(top, #e9c615,  #de5f16);
+	filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9c615', endColorstr='#de5f16')"; /* IE8+ */ 
+	}
+
+
+/* ToolBarMenu */
+/* ******************************************************************** */
+
+#toolBarMenu
+	{
+   padding-right: 0em;
+   border: 1px solid #222255;
+	}
+	
+#toolBarMenu ul
+	{
+   margin: 0;
+   padding-left: 0;
+   list-style-type: none;
+	}
+
+#toolBarMenu li
+	{
+	margin: 0;
+	}
+
+
+#toolBarMenu a:link
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #33334e;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	}
+
+#toolBarMenu a:visited
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #33334e;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	}
+
+#toolBarMenu a:hover
+	{
+	background-color: #446;
+	color: #FFF;
+	}
+
+#toolBarMenu ul ul a:link
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #33334e;
+	padding-left: 1em;
+	font-weight: normal;
+	}
+
+#toolBarMenu ul ul a:visited
+	{
+	display: block;
+	color: #cccccc;
+	background-color: #33334e;
+	padding-left: 1em;
+	font-weight: normal;
+	}
+
+#toolBarMenu ul ul a:hover
+	{
+	display: block;
+	color: #FFF;
+	background-color: #446;
+	padding-left: 1em;
+	font-weight: normal;
+	}
+
+
+
+.toolBarMenuDivider
+	{
+	color: #cccccc;
+	font-weight: bold;
+	padding-left: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #222;
+	font-weight: bold;
+	background-color: #252525;
+	background: -moz-linear-gradient(#7777AA, #111111); /* FF 3.6+ */  
+	background: -ms-linear-gradient(#7777AA, #111111); /* IE10 */  
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7777AA), color-stop(100%, #111111)); /* Safari 4+, Chrome 2+ */  
+	background: -webkit-linear-gradient(#7777AA, #111111); /* Safari 5.1+, Chrome 10+ */  
+	background: -o-linear-gradient(#7777AA, #111111); /* Opera 11.10 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7777AA', endColorstr='#111111'); /* IE6 & IE7 */  
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7777AA', endColorstr='#111111')"; /* IE8+ */  
+	background: linear-gradient(#7777AA, #111111); /* the standard */ 
+	}
+
+
+
+/* Tool Bar Text Widget */
+/* ******************************************************************** */
+
+#toolBar .text
+	{
+	background: #594F63;
+	padding: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #cccccc;
+	border-radius: 1em;
+	}
+
+#toolBar .text .figureLeft
+	{
+	float: left;
+	width: 40%;
+	margin-left: 0em;
+	margin-right: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding: 0;
+	}
+
+#toolBar .text .figureRight
+	{
+	float: right;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+	}
+
+#toolBar .text figure img
+	{
+	width: 100%;
+	}
+
+#toolBar .text figure figcaption
+	{
+	text-align: center;
+	background: #8080cc;
+	padding-left: .25em;
+	padding-right: .25em;
+	}
+	
+
+/* Tool Bar Photo Widget*/
+/* ******************************************************************** */
+
+#toolBar .photo
+	{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #cccccc;
+	border-radius: 1em;
+	padding: .5em;
+	background: #594F63;
+	}
+
+#toolBar .photo figure
+	{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+#toolBar .photo figure img
+	{
+	width: 100%;
+	margin-top: 1px;
+	}
+
+#toolBar .photo figure figcaption
+	{
+	text-align: center;
+	background: #8080cc;
+	padding-left: .25em;
+	padding-right: .25em;
+	}
+
+
+/* Tool Bar Group Widget*/
+/* ******************************************************************** */
+
+/* Group label preceeds widget - not in div */
+#toolBar .group_label
+	{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	margin-top: .5em;
+   margin-left: -0.1em;
+   margin-right: -0.1em;
+	background: #00246B;
+	border-top: 3px double #3A3A52;
+	border-left: 3px double #3A3A52;
+	border-right: 3px double #3A3A52;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	}
+
+/* Creates a grouping of one or more app fields */
+#toolBar .group
+	{
+	border: 3px double #cccccc;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-right: .5em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	background: #594F63;
+	}
+	
+#toolBar .group hr
+	{
+	margin-left: -.5em;
+	margin-right: -.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	}
+
+
+/* Left box in a group that holds form label and helper text */
+#toolBar .group .group_item .GroupLeft
+	{
+	float: left;
+	background: #594F63;
+	width: 37%;
+	margin-bottom: 0em;
+	color: #ffffff;
+	}
+
+#toolBar .helper_text
+	{
+	font-size: .7em;
+	font-weight: normal;
+	font-style: italic;
+	}
+
+#toolBar label
+	{
+	font-weight: bold;
+	}
+
+/* Right box in a group that holds form label and helper text */	
+#toolBar .group .group_item .GroupRight
+	{
+	float: right;
+	background: #594F63;
+	width: 60%;
+	}
+	
+#toolBar .error
+	{
+	clear: both;
+	text-align: right;
+	color: #ffff00;
+	font-size: .7em;
+	font-weight: bold;
+	font-style: italic;	
+	}
+
+/* Clears floats at the end of a group */
+#toolBar .group_item_close
+	{
+	clear: both;
+	}
+
+/* Tool Bar Group Item Styling */
+/* ******************************************************************** */
+
+#toolBar .group_item .note
+	{
+   background: #594F63;
+   padding: 0;
+	}
+
+#toolBar .group_item .tinyNote
+	{
+   background: #594F63;
+   font-size: .7em;
+	}
+
+#toolBar .group_item table
+	{
+   background: #8080cc;
+   table-layout: fixed;
+   width: 100%;
+	}
+
+#toolBar .group_item td
+	{
+	color: #000000;
+	}
+
+#toolBar .group_item th
+	{
+	color: #000000;
+	font-weight: bold;
+	}
+
+#toolBar .group_item ul
+	{
+   background: #594F63;
+   color: #ffffff;
+	}
+
+#toolBar .group_item ol
+	{
+   background: #594F63;
+   color: #ffffff;
+	}
+
+#toolBar .group_item input[type="text"]
+	{
+
+   float: right;
+	width: 100%;
+   background: #dddddd;
+	}
+
+#toolBar .group_item input[type="password"]
+	{
+   border: 1px solid black;
+   float: right;
+   width: 100%;
+   background: #dddddd;
+	}
+
+#toolBar .group_item textarea
+	{
+   border: 1px solid black;
+   float: right;
+   width: 100%;
+	height: 5em;
+   background: #dddddd;
+	}
+
+#toolBar .group_item input[type="checkbox"]
+	{
+   background: #dddddd;
+   margin-right: 1em;
+	}
+
+#toolBar .group_item  label.checkboxLabel
+	{
+   display: block;
+   color: #ffffff;
+   background: #594F63;
+   border: none;
+   font-weight: normal;
+   text-align: left;
+	}
+
+#toolBar .group_item select
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="radio"]
+	{
+   background: #dddddd;
+   margin-right: 1em;
+	}
+
+#toolBar .group_item  label.radioLabel
+	{
+   display: block;
+   color: #ffffff;
+   background: #594F63;
+   border: none;
+   font-weight: normal;
+   text-align: left;
+	}
+
+#toolBar .group_item input[type="file"]
+	{
+   float: left;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="color"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="date"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="datetime"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="datetime-local"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="email"]
+	{
+   float: right;
+   width: 100%;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="month"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="number"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="range"]
+	{
+   float: right;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="search"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="tel"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="time"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="url"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+#toolBar .group_item input[type="week"]
+	{
+   float: right;
+   background: #dddddd;
+   width: 100%;
+	}
+
+
+/* Tool Bar Alert Widget */
+/* ******************************************************************** */
+
+#toolBar .alert
+	{
+	background: #570101;
+	color: #ffff00;
+	padding: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px double #3A3A52;
+	border-radius: 1em;
+	}
+
+#toolBar .alert p,
+#toolBar .alert h1,
+#toolBar .alert h2,
+#toolBar .alert h3,
+#toolBar .alert h4,
+#toolBar .alert h5
+	{
+	color: #ffff00;
+	}
+
+#toolBar .alert h1
+	{
+	font-size: 2em;
+	text-indent: 0em;
+	}
+
+#toolBar .alert h2
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	}
+	
+#toolBar .alert h3
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	}
+	
+#toolBar .alert h4
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	}
+	
+#toolBar .alert h5
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	}
+
+#toolBar .alert a
+	{
+	color: #ffffff;
+	}
+
+#toolBar .alert a:hover
+	{
+	text-decoration: underline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Footer */
+/* ********************************************************************************************* */
+
+#footer
+	{
+	clear: both;
+	text-align: center;
+	background: #162C55;
+	outline: 1px solid #000000;
+	color: #999999;
+	}
+
+#footer h1
+	{
+	font-size: 2em;
+	text-indent: 0em;
+	}
+
+#footer h2
+	{
+	font-size: 1.8em;
+	text-indent: 0em;
+	}
+	
+#footer h3
+	{
+	font-size: 1.6em;
+	text-indent: 0em;
+	}
+	
+#footer h4
+	{
+	font-size: 1.4em;
+	text-indent: 0em;
+	}
+	
+#footer h5
+	{
+	font-size: 1.2em;
+	text-indent: 0em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Media Queries */
+/* ********************************************************************************************* */
+
+/* ******************************************************************** */
+/* Debugging and setup for different screen resolutions */
+/* Causes the resolution selected by the media query to be displayed */
+/* Set display: to none for production, inline for troubleshooting */
+/* ******************************************************************** */
+#resolutionDisplay
+	{
+	display: none;
+	text-align: center;
+	font-size: .8em;
+	}
+
+
+/* Turn off resolution display by default */
+#resolution_1
+	{
+	display: none;
+	}
+#resolution_2
+	{
+	display: none;
+	}
+#resolution_3
+	{
+	display: none;
+	}
+
+
+/* ******************************************************************** */
+/* Settings for different resolutions */
+/* ******************************************************************** */
+		
+/* resolution_1 */
+@media
+only screen
+and (min-width:0px)
+and (max-width:479px)
+	{
+	/* troubelshooting code for resolution display */
+	#resolution_1
+		{
+		display: inline;
+		}
+
+	#icon_menu
+		{
+		width: 2.5em;
+		}
+
+	#icon_home
+		{
+		width: 2.5em;
+		}
+
+	#icon_tools
+		{
+		width: 2.5em;
+		}
+
+	#appPanelOuter
+		{
+		width: 100%;
+		}
+
+	#menuBar
+		{
+		width: 100%;
+		}
+
+	#toolBarOuter
+		{
+		width: 100%;
+		}
+
+	#titleBar #titleBarText
+		{
+		float: left;
+		font-size: 1em;
+		margin-top: .7em;
+		}
+	}
+
+/* resolution_2 */
+@media
+only screen
+and (min-width:480px)
+and (max-width:768px)
+	{
+	/* troubelshooting code for resolution display */
+	#resolution_2
+		{
+			display: inline;
+		}
+
+	body
+		{
+		/* font-size: .75em; */
+		}
+
+	#icon_menu
+		{
+		width: 2.5em;
+		}
+
+	#icon_home
+		{
+		width: 2.5em;
+		}
+
+	#icon_tools
+		{
+		width: 2.5em;
+		}
+
+	#appPanelOuter
+		{
+		width: 100%;
+		}
+
+	#menuBar
+		{
+		width: 100%;
+		}
+
+	#toolBarOuter
+		{
+		width: 100%;
+		}
+
+	#titleBar #titleBarText
+		{
+		float: left;
+		font-size: 1em;	
+		}
+
+	}
+
+
+/* resolution_3 */
+@media
+only screen
+and (min-width:769px)
+	{
+	/* troubelshooting code for resolution display */
+	#resolution_3
+		{
+			display: inline;
+		}
+
+	#appPanelOuter
+		{
+		width: 60%;
+		}
+
+	#menuBar
+		{
+		width: 15%;
+		}
+
+	#toolBarOuter
+		{
+		width: 25%;
+		}
+
+	#icon_menu
+		{
+		display: none;
+		}
+
+	#icon_home
+		{
+		display: none;
+		}
+
+	#icon_tools
+		{
+		display: none;
+		}
+		
+	#titleBar #titleBarText
+		{
+		float: none;
+		font-size: 1.5em;
+		text-align: center;
+		}
+	
+	}
+
